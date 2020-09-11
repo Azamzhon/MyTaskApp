@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_sort_data"
+        android:icon="@drawable/ic_sort"
+        android:title="SortData"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_sort_title"
+        android:icon="@drawable/ic_sort_by_alpha"
+        android:title="SortTitle"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_clear"
+        android:icon="@drawable/ic_clear"
+        android:title="Clear"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/ic_add"
+        android:title="Add"
+        app:showAsAction="always" />
+
+</menu>
